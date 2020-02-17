@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-btn {
+    position: absolute;
+    z-index: 3;
+    left: 40px;
+    top: 55px;
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+.menu-btn .btn-line {
+    width: 30px;
+    height: 5px;
+    margin: 0 0 7px 0;
+    background: #fff;
+    transition: all 0.5s ease-out; }
+.menu-btn.close {
+    transform: rotate(180deg); }
+.menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 5px); }
+.menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0; }
+.menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -9px); }
+
+body{
+    }
+    header#bg-img {
+        background-image: url("../img/libero.png");
+        background-repeat: no-repeat;
+        height: 30vh;
+        background-color: #0b0023;
+        }
+        ul li{
+            color: white;
+            list-style-type: none;
+        }
+
