@@ -1,47 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.header-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.menu-btn {
-    position: absolute;
-    z-index: 3;
-    left: 40px;
-    top: 55px;
-    cursor: pointer;
-    transition: all 0.5s ease-out; }
-.menu-btn .btn-line {
-    width: 30px;
-    height: 5px;
-    margin: 0 0 7px 0;
-    background: #fff;
-    transition: all 0.5s ease-out; }
-.menu-btn.close {
-    transform: rotate(180deg); }
-.menu-btn.close .btn-line:nth-child(1) {
-    transform: rotate(45deg) translate(2px, 5px); }
-.menu-btn.close .btn-line:nth-child(2) {
-    opacity: 0; }
-.menu-btn.close .btn-line:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -9px); }
-
 body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: #0b0023;
     }
-    header#bg-img {
+
+.logo-container{
+    padding: 31px 0px 0 76px;
+    float: left;
+    width: 268px;
+    }.menu-btn {
+        margin-top: 5px;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        transition: all 0.5s ease-out; }
+    .menu-btn .btn-line {
+        width: 30px;
+        height: 5px;
+        margin: 0 0 7px 0;
+        background: #fff;
+        transition: all 0.5s ease-out; }
+    #bg-img {
         background-image: url("../img/libero.png");
         background-repeat: no-repeat;
-        height: 30vh;
-        background-color: #0b0023;
+        height: 33px;
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+        margin-left: 30px;
         }
-        ul li{
-            color: white;
+
+.navigation{
+    float:left;
+    width: 100px;
+    }nav{
+        border: 1px solid red;
+        }li{
             list-style-type: none;
-        }
+            }a{
+                text-decoration: none;
+                color: white;
+                display: inline-block;
+                }
+
+.clear{
+    clear: both;
+}
+
 
