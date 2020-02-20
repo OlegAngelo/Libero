@@ -3,9 +3,28 @@ body{
     margin:0;
 }
 
-/* header - start */
+.text-design{
+    font-family: Arial;
+}
+
+input{
+    border-radius: 10px;
+    border: 2px solid #358fff;
+    border-spacing: 20px;
+}
+
+.submit-btn{
+    background-color: #000045;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-size: 20pt;
+}
+
+                /* ---------- header - start ---------- */
 header{
-    background-color: #0b0023;
+    background-color: #062d40;
     }
 
 .logo-container{
@@ -68,32 +87,31 @@ header{
 .clear{
     clear: both;
 }
-/* ---------- header - end ------------ */
+            /* ---------- header - end ------------ */
 
-/* ---------- main - start ------------ */
+
+            /* ---------- main - start ------------ */
 
 .main-container{
     float:left;
-    margin: 100px;
-    padding: 20px;
-    padding-right: 75px;
+    margin: 50px;
+    padding: 0 400px 0 200px;
     border-right: 2px solid black;
-    }
+    }.heading-text{
+        font-size: 40pt;
+        color: #062d40;
+        }
+     .main__second-section{
+         padding-left: 40px;
+     }
 
-/* ---------- main - end ------------ */
+            /* ---------- main - end ------------ */
 
 
-/*.line-container{
-    border-left: 2px solid black;
-    height: 500px;
-    float: right;
-    bottom: 20px;
-}*/
-
-/* ---------- aside - start ------------ */
+            /* ---------- aside - start ------------ */
 
 .aside-container{
     float: right;
 }
 
-/* ---------- aside - end ------------ */
+            /* ---------- aside - end ------------ */
