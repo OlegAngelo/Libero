@@ -70,22 +70,25 @@ header{
 }
 /* ---------- header - end ------------ */
 
-
-/* ------------ content --------------- */
 /* ---------- main - start ------------ */
 
 .main-container{
     float:left;
+    margin: 100px;
+    padding: 20px;
+    padding-right: 75px;
+    border-right: 2px solid black;
     }
 
 /* ---------- main - end ------------ */
 
 
-.line-container{
-    border-left: 3px solid black;
+/*.line-container{
+    border-left: 2px solid black;
     height: 500px;
-    float: left;
-}
+    float: right;
+    bottom: 20px;
+}*/
 
 /* ---------- aside - start ------------ */
 
@@ -94,4 +97,3 @@ header{
 }
 
 /* ---------- aside - end ------------ */
-/* ---------- content ------------ */
