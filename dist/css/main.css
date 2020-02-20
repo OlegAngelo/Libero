@@ -3,12 +3,13 @@ body{
     margin:0;
 }
 
+/* header - start */
 header{
     background-color: #0b0023;
     }
 
 .logo-container{
-    padding: 50px;
+    padding: 60px;
     float: left;
     width: auto;
     }.menu-btn {
@@ -31,10 +32,12 @@ header{
         width: 200px;
         vertical-align: middle;
         margin-left: 30px;
+        cursor:pointer;
         }
 
+
 .nav-container{
-    padding: 39px;
+    padding: 49px;
     float: left;
     width: auto;
     }ul{
@@ -48,10 +51,47 @@ header{
             }a{
                 text-decoration: none;
                 color: white;
+                margin-right: 20px;
                 }
+
+.search-container {
+    float: right;
+    width: auto;
+    padding: 60px;
+    }.fas.fa-search::before{
+        font-family: fontawesome;
+        font-size: 30pt;
+        color: white;
+        cursor: pointer;
+        }
 
 .clear{
     clear: both;
 }
+/* ---------- header - end ------------ */
 
 
+/* ------------ content --------------- */
+/* ---------- main - start ------------ */
+
+.main-container{
+    float:left;
+    }
+
+/* ---------- main - end ------------ */
+
+
+.line-container{
+    border-left: 3px solid black;
+    height: 500px;
+    float: left;
+}
+
+/* ---------- aside - start ------------ */
+
+.aside-container{
+    float: right;
+}
+
+/* ---------- aside - end ------------ */
+/* ---------- content ------------ */

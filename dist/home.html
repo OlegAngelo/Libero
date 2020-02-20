@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <script src="https://kit.fontawesome.com/b72716a1f2.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../dist/css/main.css">
 
     <title>Libero</title>
@@ -22,11 +20,14 @@
                 <div class="btn-line"></div>
             </div>
 
-            <div  id="bg-img"></div>
+            <div  id="bg-img">
+                <a href="/"></a>
+            </div>
 
         </div>
 
         <div class="nav-container">
+            <div>
                 <ul>
                     <li class="nav-pages">
                         <a href="/">HOME</a>
@@ -41,11 +42,56 @@
                         <a href="/world.html">WORLD</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <i class="fas fa-search"></i>
         </div>
 
         <div class="clear"></div>
     </header>
 
+    <content>
 
+        <main class="main-container">
+            <div>
+
+                <div>
+                    <p>How do you feel about recycling?</p>
+                </div>
+
+                <div>
+                    <p>Postcode:</p>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <p>
+                        Should the government start enforcing garbage <br>
+                        separation and recycling schemes across your area?
+                    </p>
+                    <input type="radio">Yes</input>
+                    <input type="radio">No</input>
+                </div>
+                <div>
+                    <p>E-mail Address:</p>
+                    <input type="text">
+                    <p>Mobile Number:</p>
+                    <input type="text">
+                </div>
+            </div>
+        </main>
+
+        <div class="line-container"></div>
+
+        <aside  class="aside-container">
+            <div>
+                <p>Phasellus augue sapien</p>
+            </div>
+        </aside>
+        
+        <div class="clear"></div>
+    </content>
 </body>
 </html>
