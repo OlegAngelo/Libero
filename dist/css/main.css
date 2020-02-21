@@ -122,7 +122,8 @@ header{
             /* ---------- aside - start ------------ */
 
 .aside-container{
-    float: right;
+    float: left;
+    margin: 50px;
 }
 
             /* ---------- aside - end ------------ */
@@ -156,6 +157,7 @@ header{
     top: 7px;
     left: 10px;
     border-radius: 100%;
+    box-shadow: 0 0 0 2pt white;
 }
 /* outer circle */
 .custom-radio label:before{
