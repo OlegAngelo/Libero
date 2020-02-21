@@ -52,46 +52,60 @@
         <div class="clear"></div>
     </header>
 
-
-
     <main class="main-container">
         <div>
             <div>
-                <p class="text-design heading-text">How do you feel about recycling?</p>
+                <p class="text-design main__heading-text">How do you feel about recycling?</p>
             </div>
 
             <div class="main__second-section">
-                <div>
-                    <p class="text-design">Postcode:</p>
-                    <input type="text" class="postcode-border">
-                </div>
 
+                <!--postcode-->
                 <div>
                     <p class="text-design">
-                        Should the government start enforcing garbage <br>
-                        separation and recycling schemes across your area?<br>
-
-                        <input type="radio" class="text-design">Yes</input>
-                        <input type="radio" class="text-design">No</input>
+                        Postcode: <br>
+                        <input type="text" class="postcode-border">
                     </p>
                 </div>
 
+                <!--yes/no question-->
+                <div>
+                    <div class="p-yn-container">
+                        <p class="text-design">
+                            Should the government start enforcing garbage <br>
+                            separation and recycling schemes across your area?
+                        </p>
+                    </div>
+
+                    <div class="p-yn-container">
+                        <div class="custom-radio">
+                            <input type="radio" id="yes">
+                            <label for="yes" class="text-design">Yes</label>
+                        </div>
+
+                        <div class="custom-radio">
+                            <input type="radio" id="no">
+                            <label for="no" class="text-design">No</label>
+                        </div>
+                    </div>
+                </div>
+                <!--email add/mbl number-->
                 <div>
                     <p class="text-design">
                         E-mail Address: <br>
-                        <input type="text">
+                        <input type="text" class="email-mbl-border">
                     </p>
                     <p class="text-design">
                         Mobile Number: <br>
-                        <input type="text">
+                        <input type="text" class="email-mbl-border">
                     </p>
                 </div>
 
+                <!--submit btn-->
                 <div>
-                    <input type="submit" placeholder="  Submit  " class="submit-btn">
+                    <input type="submit" placeholder="Submit" class="submit-btn">
                 </div>
             </div>
-
         </div>
     </main>
 

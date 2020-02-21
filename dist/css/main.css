@@ -4,22 +4,8 @@ body{
 }
 
 .text-design{
-    font-family: Arial;
-}
-
-input{
-    border-radius: 10px;
-    border: 2px solid #358fff;
-    border-spacing: 20px;
-}
-
-.submit-btn{
-    background-color: #000045;
-    color: white;
-    border: none;
-    cursor: pointer;
-    float: right;
-    font-size: 20pt;
+    font-family: Sans-serif;
+    font-size: 19pt;
 }
 
                 /* ---------- header - start ---------- */
@@ -95,15 +81,40 @@ header{
 .main-container{
     float:left;
     margin: 50px;
-    padding: 0 400px 0 200px;
+    padding: 0 335px 0 145px;
     border-right: 2px solid black;
-    }.heading-text{
+    }
+    .main__heading-text{
         font-size: 40pt;
         color: #062d40;
+        font-weight: bold;
         }
-     .main__second-section{
-         padding-left: 40px;
-     }
+    .main__second-section{
+        padding-left: 40px;
+        }
+    input{
+        border-radius: 20px;
+        border: 2px solid #358fff;
+        }
+    .postcode-border{
+        width: 165px;
+        height: 35px;
+        }
+    .email-mbl-border{
+        width: 300px;
+        height: 35px;
+        }
+    .submit-btn{
+        background-color: #000045;
+        color: white;
+        border: none;
+        cursor: pointer;
+        float: right;
+        font-size: 20pt;
+        width: 145px;
+        height: 43px;
+        }
+
 
             /* ---------- main - end ------------ */
 
@@ -115,3 +126,58 @@ header{
 }
 
             /* ---------- aside - end ------------ */
+.custom-radio{
+    display: inline-block;
+    position: relative;
+    margin: 0px 45px 0px 15px;
+
+}
+
+.custom-radio input[type="radio"]{
+    display: none;
+}
+
+.custom-radio label{
+    padding: 0 0 0 30px;
+
+}
+/*inner*/
+.custom-radio label:after{
+    content: '';
+    display: block;
+    border: solid #358fff 2px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    border-radius: 100%;
+}
+/*outer*/
+.custom-radio label:before{
+    content: '';
+    display: block;
+    border: solid #358fff 2px;
+    width: 150%;
+    height: 135%;
+    position: absolute;
+    top: -8px;
+    left: -2px;
+    border: solid 2px #358fff;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.custom-radio input:checked + label:after{
+    background: white;
+}
+
+.custom-radio input:checked + label{
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.custom-radio input:checked + label:before{
+    background: #358fff;
+}
+
