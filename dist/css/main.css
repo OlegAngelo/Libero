@@ -7,7 +7,9 @@ body{
     font-family: Sans-serif;
     font-size: 19pt;
 }
-
+textarea:focus, input:focus{
+    outline: none;
+}
                 /* ---------- header - start ---------- */
 
 header{
@@ -143,7 +145,7 @@ header{
 
 .custom-radio label{
     padding: 0 0 0 30px;
-
+    cursor: pointer;
 }
 
 /* inner circle */
@@ -158,6 +160,7 @@ header{
     left: 10px;
     border-radius: 100%;
     box-shadow: 0 0 0 2pt white;
+    cursor: pointer;
 }
 /* outer circle */
 .custom-radio label:before{
@@ -168,10 +171,11 @@ header{
     height: 135%;
     position: absolute;
     top: -8px;
-    left: -2px;
+    left: -7px;
     border: solid 2px #358fff;
     z-index: -1;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .custom-radio input:checked + label:after{
