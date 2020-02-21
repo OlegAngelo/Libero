@@ -9,6 +9,7 @@ body{
 }
 
                 /* ---------- header - start ---------- */
+
 header{
     background-color: #062d40;
     }
@@ -38,8 +39,7 @@ header{
         vertical-align: middle;
         margin-left: 30px;
         cursor:pointer;
-        }
-
+    }
 
 .nav-container{
     padding: 49px;
@@ -57,7 +57,7 @@ header{
                 text-decoration: none;
                 color: white;
                 margin-right: 20px;
-                }
+            }
 
 .search-container {
     float: right;
@@ -68,11 +68,12 @@ header{
         font-size: 30pt;
         color: white;
         cursor: pointer;
-        }
+    }
 
 .clear{
     clear: both;
 }
+
             /* ---------- header - end ------------ */
 
 
@@ -113,8 +114,7 @@ header{
         font-size: 20pt;
         width: 145px;
         height: 43px;
-        }
-
+    }
 
             /* ---------- main - end ------------ */
 
@@ -126,11 +126,14 @@ header{
 }
 
             /* ---------- aside - end ------------ */
+
+
+            /* ------ start of radio button ------- */
+
 .custom-radio{
     display: inline-block;
     position: relative;
     margin: 0px 45px 0px 15px;
-
 }
 
 .custom-radio input[type="radio"]{
@@ -141,7 +144,8 @@ header{
     padding: 0 0 0 30px;
 
 }
-/*inner*/
+
+/* inner circle */
 .custom-radio label:after{
     content: '';
     display: block;
@@ -153,7 +157,7 @@ header{
     left: 10px;
     border-radius: 100%;
 }
-/*outer*/
+/* outer circle */
 .custom-radio label:before{
     content: '';
     display: block;
@@ -181,3 +185,4 @@ header{
     background: #358fff;
 }
 
+            /* ------- end of radio button ------- */
