@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7795bda8-71df-49e6-908d-7906a257f3c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/dist/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/home.html" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581945224631</updated>
       <workItem from="1581945226412" duration="9387000" />
-      <workItem from="1582215687335" duration="7615000" />
+      <workItem from="1582215687335" duration="7708000" />
+      <workItem from="1582302063027" duration="285000" />
     </task>
     <servers />
   </component>
@@ -78,14 +82,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582162046909">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="656" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1582302065914">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582162046909" />
+<<<<<<< Updated upstream
     <state x="616" y="243" key="run.anything.popup" timestamp="1582250333092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582250333092" />
+=======
+    <state x="656" y="376" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582302065914" />
+>>>>>>> Stashed changes
     <state x="623" y="227" key="search.everywhere.popup" timestamp="1582124484376">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
