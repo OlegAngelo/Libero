@@ -7,6 +7,7 @@ body{
     font-family: Sans-serif;
     font-size: 19pt;
 }
+
 textarea:focus, input:focus{
     outline: none;
 }
@@ -83,7 +84,8 @@ header{
 
 .main-container{
     float:left;
-    margin: 50px;
+    margin: 85px 30px 50px 50px;
+    height: 620px;
     padding: 0 335px 0 145px;
     border-right: 2px solid black;
     }
@@ -91,6 +93,7 @@ header{
         font-size: 40pt;
         color: #062d40;
         font-weight: bold;
+        margin-top: 0;
         }
     .main__second-section{
         padding-left: 40px;
@@ -98,6 +101,7 @@ header{
     input{
         border-radius: 20px;
         border: 2px solid #358fff;
+        size: 10px;
         }
     .postcode-border{
         width: 165px;
@@ -120,15 +124,6 @@ header{
 
             /* ---------- main - end ------------ */
 
-
-            /* ---------- aside - start ------------ */
-
-.aside-container{
-    float: left;
-    margin: 50px;
-}
-
-            /* ---------- aside - end ------------ */
 
 
             /* ------ start of radio button ------- */
@@ -192,3 +187,50 @@ header{
 }
 
             /* ------- end of radio button ------- */
+
+
+            /* ---------- aside - start ------------ */
+
+.aside-container{
+    float: left;
+    margin: 70px 0 0 0;
+    width: 260px;
+}
+
+.border-line{
+    border: 7px solid #358fff;
+    margin: 10px 0 10px 0;
+}
+
+.aside__heading-text{
+    font-weight: bold;
+}.text-design.img-text{
+     position: absolute;
+     color: white;
+     font-size: 14pt;
+     top: 37px;
+     left: 34px;
+     font-weight: bold;
+    }.centered-text{
+        position: absolute;
+        top: 20px;
+        left: 45px;
+        }
+
+.text-design.aside-text{
+    color: #000045;
+    font-size: 18px ;
+}
+
+.aside-img1{
+    background-image: url("../img/1b.jpeg");
+    height: 150px;
+    position: relative;
+}
+.aside-img2{
+    background-image: url("../img/1c.jpeg");
+    height: 150px;
+    position: relative;
+}
+
+            /* ---------- aside - end ------------ */
