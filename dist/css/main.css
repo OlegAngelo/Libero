@@ -308,3 +308,67 @@ footer{
 .clear{
     clear: both;
 }
+
+                            /* footer -end */
+
+                        /* mobile responsive */
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px){
+    /*.logo-container,
+    .search-container{
+        padding: 25px;
+    }
+    .nav-container{
+        padding: 15px;
+    }
+    .main__heading-text{
+        font-size: 55px;
+    }
+    .main-container{
+        padding: 0 145px;
+        height: 720px;
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+    .aside-container{
+        margin: 0 350px;
+    }*/
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px) and (orientation: landscape) {
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .logo-container,
+    .search-container{
+        padding: 40px;
+    }
+    .nav-container{
+        padding: 30px;
+    }
+
+    .main-container{
+        padding: 25px;
+    }
+    .aside-container{
+        margin-right: 90px;
+    }
+    .mbl-text{
+        display: block;
+    }
+    footer{
+        padding: 0 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
