@@ -313,7 +313,7 @@ footer{
 
                         /* mobile responsive */
 @media only screen and (min-device-width: 200px) and (max-device-width: 767px){
-    /*.logo-container,
+    .logo-container,
     .search-container{
         padding: 25px;
     }
@@ -330,12 +330,14 @@ footer{
         border-bottom: 2px solid black;
     }
     .aside-container{
-        margin: 0 350px;
-    }*/
-}
-
-@media only screen and (min-device-width: 200px) and (max-device-width: 767px) and (orientation: landscape) {
-
+        margin: 0 350px 50px 350px;
+    }
+    footer{
+        padding: 0 40px;
+    }
+    .links-container{
+        margin-right: 50px;
+    }
 }
 
 
@@ -363,7 +365,9 @@ footer{
 }
 
 
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px) and (orientation: landscape) {
 
+}
 
 
 
