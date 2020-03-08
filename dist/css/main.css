@@ -12,6 +12,11 @@ textarea:focus, input:focus{
     outline: none;
 }
 
+input[type="text"]
+{
+    font-size:24px;
+}
+
                 /* ---------- header - start ---------- */
 
 header{
