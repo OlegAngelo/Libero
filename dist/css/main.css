@@ -210,9 +210,9 @@ input{
 .text-design.img-text{
     position: absolute;
     color: white;
-    font-size: 14pt;
-    top: 37px;
-    left: 36px;
+    font-size: 19pt;
+    top: 20px;
+    left: 20px;
     font-weight: bold;
     }
 .centered-text{
@@ -228,6 +228,7 @@ input{
     background-image: url("../img/1b.jpeg");
     height: 150px;
     position: relative;
+    cursor: pointer;
     filter: contrast(70%);
     }
 .aside-img2{
@@ -235,9 +236,10 @@ input{
     height: 150px;
     position: relative;
     filter: contrast(70%);
+    cursor: pointer;
     }
 .readMore-link{
-    background-color: rgb(0, 0, 69);
+    background-color: #358fff;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -264,7 +266,7 @@ footer{
 .links-container{
     display: inline-grid;
     grid-column-gap: 5px;
-    justify-items: center;
+    justify-items: left;
     margin: 0px 120px 0 0;
     }
 .h3-text{
