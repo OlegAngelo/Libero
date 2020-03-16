@@ -4,9 +4,9 @@ desktop view
 
 	navigation links
 		-hover designs	
-	searchbutton
+	* searchbutton
 		-once clicked = show input text to search 
-	data manipulation/form validation 
+	* data manipulation/form validation 
 		-errors and prompts for input texts
 	aside image
 		 -when hovering = adjust opacity and zoom picture

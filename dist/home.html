@@ -52,65 +52,67 @@
         <div class="clear"></div>
     </header>
 
-    <main class="main-container">
-        <div>
+    <form class="submit-form">
+        <main class="main-container">
             <div>
-                <p class="text-design main__heading-text">
-                    How do you feel <span class="mbl-text">about recycling?</span>
-                </p>
-            </div>
-
-            <div class="main__second-section">
-
-                <!--postcode-->
                 <div>
-                    <p class="text-design">
-                        Postcode: <br>
-                        <input type="text" class="postcode-border">
+                    <p class="text-design main__heading-text">
+                        How do you feel <span class="mbl-text">about recycling?</span>
                     </p>
                 </div>
 
-                <!--yes/no question-->
-                <div>
-                    <div class="p-yn-container">
+                <div class="main__second-section">
+
+                    <!--postcode-->
+                    <div>
                         <p class="text-design">
-                            Should the government start enforcing garbage <br>
-                            separation and recycling schemes across your area?
+                            Postcode: <br>
+                            <input type="text" class="postcode-border">
                         </p>
                     </div>
 
-                    <div class="p-yn-container">
-                        <div class="custom-radio">
-                            <input type="radio" name="yesNo-btn" id="yes">
-                            <label for="yes" class="text-design">Yes</label>
+                    <!--yes/no question-->
+                    <div>
+                        <div class="p-yn-container">
+                            <p class="text-design">
+                                Should the government start enforcing garbage <br>
+                                separation and recycling schemes across your area?
+                            </p>
                         </div>
 
-                        <div class="custom-radio">
-                            <input type="radio" name="yesNo-btn" id="no">
-                            <label for="no" class="text-design">No</label>
+                        <div class="p-yn-container">
+                            <div class="custom-radio">
+                                <input type="radio" name="yesNo-btn" id="yes">
+                                <label for="yes" class="text-design">Yes</label>
+                            </div>
+
+                            <div class="custom-radio">
+                                <input type="radio" name="yesNo-btn" id="no">
+                                <label for="no" class="text-design">No</label>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!--email add/mbl number-->
-                <div>
-                    <p class="text-design">
-                        E-mail Address: <br>
-                        <input type="text" class="email-mbl-border">
-                    </p>
-                    <p class="text-design">
-                        Mobile Number: <br>
-                        <input type="text" class="email-mbl-border">
-                    </p>
-                </div>
+                    <!--email add/mbl number-->
+                    <div>
+                        <p class="text-design">
+                            E-mail Address: <br>
+                            <input type="text" class="email-mbl-border">
+                        </p>
+                        <p class="text-design">
+                            Mobile Number: <br>
+                            <input type="text" class="email-mbl-border">
+                        </p>
+                    </div>
 
-                <!--submit btn-->
-                <div>
-                    <input type="submit" placeholder="Submit" class="submit-btn">
+                    <!--submit btn-->
+                    <div>
+                        <input type="submit" placeholder="Submit" class="submit-btn">
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </form>
 
     <aside>
 
@@ -218,4 +220,6 @@
         <div class="clear"></div>
     </footer>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
 </html>
