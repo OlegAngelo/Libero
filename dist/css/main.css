@@ -1,3 +1,13 @@
+a:hover{
+    text-decoration: underline;
+}
+
+.help-block{
+    color:red;
+    font-size: 16pt;
+    display: block;
+}
+
 body{
     padding:0;
     margin:0;
@@ -12,7 +22,8 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-input[type="text"]
+input[type="text"],
+input[type="tel"]
 {
     font-size:24px;
 }
@@ -110,7 +121,6 @@ a{
 input{
     border-radius: 20px;
     border: 2px solid #358fff;
-    size: 10px;
     }
 .postcode-border{
     width: 165px;
@@ -243,6 +253,9 @@ input{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.readMore-link:hover{
+    text-decoration: none;
 }
 
             /* ---------- aside - end ------------ */

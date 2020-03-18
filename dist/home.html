@@ -52,7 +52,7 @@
         <div class="clear"></div>
     </header>
 
-    <form class="submit-form">
+    <form id="submit-form">
         <main class="main-container">
             <div>
                 <div>
@@ -63,52 +63,54 @@
 
                 <div class="main__second-section">
 
-                    <!--postcode-->
-                    <div>
-                        <p class="text-design">
-                            Postcode: <br>
-                            <input type="text" class="postcode-border">
-                        </p>
-                    </div>
+                    	<!--postcode-->
+                   	 <div class="form-group">
+                   	    	 <p class="text-design">
+				 	 <label for="postcode">Postcode: <br>  </label>
+					 <input id="postcode" name="postcode" type="tel" class="postcode-border">
+                   	    	 </p>
+                   	 </div>
 
-                    <!--yes/no question-->
-                    <div>
-                        <div class="p-yn-container">
-                            <p class="text-design">
-                                Should the government start enforcing garbage <br>
-                                separation and recycling schemes across your area?
-                            </p>
-                        </div>
+                   	 <!--yes/no question-->
+                   	 <div class="form-group">
+                   	    	 <div class="p-yn-container">
+                   	    	    	 <p class="text-design">
+                   	    	    	     Should the government start enforcing garbage <br>
+                   	    	    	     separation and recycling schemes across your area?
+                   	    	    	 </p>
+                   	    	 </div>
 
-                        <div class="p-yn-container">
-                            <div class="custom-radio">
-                                <input type="radio" name="yesNo-btn" id="yes">
-                                <label for="yes" class="text-design">Yes</label>
-                            </div>
+                   	    	 <div class="p-yn-container">
+                   	    	    	 <div class="custom-radio">
+                   	    	    	     <input type="radio" name="yesNoBtn" id="yes">
+                   	    	    	     <label for="yes" class="text-design">Yes</label>
+                   	    	    	 </div>
 
-                            <div class="custom-radio">
-                                <input type="radio" name="yesNo-btn" id="no">
-                                <label for="no" class="text-design">No</label>
-                            </div>
-                        </div>
-                    </div>
+                   	    	    	 <div class="custom-radio">
+                   	    	    	     <input type="radio" name="yesNoBtn" id="no">
+                   	    	    	     <label for="no" class="text-design">No</label>
+                   	    	    	 </div>
+                   	    	 </div>
+                   	 </div>
 
-                    <!--email add/mbl number-->
-                    <div>
-                        <p class="text-design">
-                            E-mail Address: <br>
-                            <input type="text" class="email-mbl-border">
-                        </p>
-                        <p class="text-design">
-                            Mobile Number: <br>
-                            <input type="text" class="email-mbl-border">
-                        </p>
-                    </div>
+                   	 <!--email add/mbl number-->
+                   	 <div class="form-group">
+                   	     <p class="text-design">
+			     		<label for="email"> E-mail Address: <br> </label>
+                   	         	<input name="email" type="text" class="email-mbl-border">
+                   	     </p>
+			 </div>
+			 <div class="form-group">
+                   	     <p class="text-design">
+			     		<label for="mobileNumber"> Mobile Number: <br> </label>
+                   	         	<input name="mobileNumber" type="tel" class="email-mbl-border">
+                   	     </p>
+                   	 </div>
 
-                    <!--submit btn-->
-                    <div>
-                        <input type="submit" placeholder="Submit" class="submit-btn">
-                    </div>
+                   	 <!--submit btn-->
+			 <div class="form-group">
+                   	 	<input type="submit" value="Submit" class="submit-btn">
+			 </div>
                 </div>
             </div>
         </main>
@@ -133,7 +135,7 @@
                     <span class="centered-text">tempor orci</span>
                 </p>
 
-                <a href="/" class="readMore-link">Read more >></a>
+                <a href="#" class="readMore-link">Read more >></a>
             </div>
 
             <div>
@@ -219,7 +221,12 @@
 
         <div class="clear"></div>
     </footer>
-</body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
 </html>
