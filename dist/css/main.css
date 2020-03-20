@@ -2,10 +2,12 @@ a:hover{
     text-decoration: underline;
 }
 
-.help-block{
+.help-block,
+#choice {
     color:red;
-    font-size: 16pt;
     display: block;
+    font-size: 16pt;
+    padding-top: 5px;
 }
 
 body{
@@ -89,14 +91,93 @@ a{
     float: right;
     width: auto;
     padding: 60px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.5s;
     }
-.fas.fa-search::before{
-    font-family: fontawesome;
-    font-size: 30pt;
-    color: white;
-    cursor: pointer;
+.search-container.active{
+    width: 600px;
+    }
+.search-container input {
+    position: absolute;
+    top: 40px;
+    overflow: hidden;
+    left: 90px;
+    height: 60px;
+    border: none;
+    outline: none;
+    width: calc(100% - 120px);
+    font-size: 36px;
+    }
+.search-container.active .search-btn{
+    background: rgba(255, 0, 0, 0.2);
+    transition: 2s;
+}
+.search-container.active .search-btn::before{
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    height: 30px;
+    width: 18px;
+    background: transparent;
+    border: none;
+    border-right: 2px solid white;
+    border-radius: 0;
+    transition: 0.5s;
+    transform: rotate(45deg);
+    }
+.search-container.active .search-btn::after{
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 13px;
+    height: 30px;
+    width: 18px;
+    background: transparent;
+    border: none;
+    border-right: 2px solid white;
+    border-radius: 0;
+    transition: 0.5s;
+    transform: rotate(-45deg);
     }
 
+
+.search-btn{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 41px;
+    right: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 4px;
+    }
+.search-btn::before{
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    height: 24px;
+    width: 25px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.5s;
+    }
+.search-btn::after{
+    content: '';
+    position: absolute;
+    top: 29px;
+    left: 34px;
+    height: 18px;
+    background: transparent;
+    width: 18px;
+    border-left: 2px solid white;
+    border-radius: 0;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    }
             /* ---------- header - end ------------ */
 
 
@@ -567,6 +648,7 @@ footer{
     .links-container {
         margin-right: 50px;
     }
+
 }
 
                  /* ------- mobile responsive - end -------- */

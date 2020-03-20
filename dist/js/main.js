@@ -16,6 +16,22 @@ $(function() {
 	
 	});
 
+	$(document).ready(function() {
+		$(".submit-btn").click(function() {
+			var selectedChoice = $("input[name='yesNoBtn']:checked").val();
+
+			if(!selectedChoice){
+				document.getElementById("choice").innerHTML= "Select a value.";
+			}
+		});
+	});
+
+	$(document).ready(function() {
+		$('.search-btn').click(function() {
+			$('.search-container').toggleClass('active')
+		
+		});
+	});
 
 	$("#submit-form").validate({
 		rules: {

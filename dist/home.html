@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../dist/css/main.css">
 
     <title>Libero</title>
@@ -46,10 +45,11 @@
         </div>
 
         <div class="search-container">
-            <i class="search-btn fas fa-search"></i>
+		<input type="text" placeholder="  Search...">
+            <i class="search-btn"></i>
         </div>
 
-        <div class="clear"></div>
+	<div class="clear"></div>
     </header>
 
     <form id="submit-form">
@@ -72,7 +72,6 @@
                    	 </div>
 
                    	 <!--yes/no question-->
-                   	 <div class="form-group">
                    	    	 <div class="p-yn-container">
                    	    	    	 <p class="text-design">
                    	    	    	     Should the government start enforcing garbage <br>
@@ -90,8 +89,8 @@
                    	    	    	     <input type="radio" name="yesNoBtn" id="no">
                    	    	    	     <label for="no" class="text-design">No</label>
                    	    	    	 </div>
+					 <label id="choice"/>
                    	    	 </div>
-                   	 </div>
 
                    	 <!--email add/mbl number-->
                    	 <div class="form-group">
